@@ -1,0 +1,7 @@
+prompt=(‘Introducir el numero de iteraciones  ’);
+n=input(prompt);
+prompt=(‘introduce el valor inicial  ’);
+x=input(prompt);
+for i=1:1n
+  x=exp(-x)
+end
